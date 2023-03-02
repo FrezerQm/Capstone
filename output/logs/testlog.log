@@ -1,0 +1,6 @@
+2023-03-01 19:08:43,348 - logger_File -INFO - User is on retail website
+2023-03-01 19:08:43,473 - logger_File -INFO - User click on Sign in option
+2023-03-01 19:08:43,538 - logger_File -INFO - User click on Create New Account button
+2023-03-01 19:08:43,998 - logger_File -INFO - User fill the sign up information form with data table
+2023-03-01 19:08:44,055 - logger_File -INFO - User click in Sign up button
+2023-03-01 19:08:44,613 - logger_File -INFO - User is logged into Account page

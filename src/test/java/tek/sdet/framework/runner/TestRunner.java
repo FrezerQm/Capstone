@@ -7,10 +7,10 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        tags = "@Test11" , 
+        tags = "@Test2" , 
         features = ("classpath:features"),
         glue="tek.sdet.framework",
-        dryRun = true,
+        dryRun = false,
         plugin = {
                 "pretty",
                 "html:target/htmlReports/cucumber-pretty.html",

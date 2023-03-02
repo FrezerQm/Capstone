@@ -12,6 +12,7 @@ import java.util.Map;
 import org.junit.Assert;
 import tek.sdet.framework.pages.POMFactory;
 import tek.sdet.framework.utilities.CommonUtility;
+import tek.sdet.framework.utilities.DataGenerator;
 
 public class SignInSteps extends CommonUtility{
 
@@ -62,8 +63,8 @@ public class SignInSteps extends CommonUtility{
 	@And("User fill the sign up information with below data")
 	public void userFillTheSignUpFormWithBelowData(DataTable table) {
 		List<Map<String, String>> data = table.asMaps(String.class, String.class);
-		sendText(factory.signupPage().nameInput, data.get(0).get("name"));
-		sendText(factory.signupPage().emailInput, data.get(0).get("email"));
+		sendText(factory.signupPage().nameInput, DataGenerator.getData(data.get(0).get("name")));
+		sendText(factory.signupPage().emailInput, DataGenerator.getData(data.get(0).get("email")));
 		sendText(factory.signupPage().passwordInput, data.get(0).get("password"));
 		sendText(factory.signupPage().confirmPasswordInput, data.get(0).get("confirmPassword"));
 		logger.info("User fill the sign up information form with data table");

@@ -1,4 +1,4 @@
-@smokeTest
+@SigninFeature
 Feature: Sign in feature
 
   Background: 
@@ -16,7 +16,7 @@ Feature: Sign in feature
     When User click on Sign in option
     And User click on Create New Account button
     And User fill the sign up information with below data
-      | name      | email                  | password  | confirmPassword |
-      | phantomFN | phantomF@tekschool.us | Abc@12345 | Abc@12345       |
+      | name | email | password  | confirmPassword |
+      | name | email | Abc@12345 | Abc@12345       |
     And User click in Sign Up button
     Then User should be logged into account page
