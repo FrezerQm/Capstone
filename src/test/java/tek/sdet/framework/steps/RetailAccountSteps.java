@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Map;
 
 import org.junit.Assert;
+import org.openqa.selenium.By;
 
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.And;
@@ -130,11 +131,11 @@ public class RetailAccountSteps extends CommonUtility{
 		logger.info("User click Update Your Card button");
 	}
 	
-	@Then("A message should be displayed 'Payment Method updated Successfully'")
-	public void confirmMessageShouldBeDisplayed() {
-		waitTillPresence(factory.accountPage().updatedCardMessage);
-		Assert.assertTrue(isElementDisplayed(factory.accountPage().updatedCardMessage));
-		logger.info("A message should be displayed 'Payment Method updated Successfully'");
+	@Then("A message should be displayed {string}")
+	public void confirmMessageShouldBeDisplayed(String message) {
+		waitTillPresence(getDriver().findElement(By.xpath("//div[text()='" + message + "']")));
+		Assert.assertTrue(isElementDisplayed(getDriver().findElement(By.xpath("//div[text()='" + message + "']"))));
+		logger.info("A message should be displayed");
 	}
 	
 	@And("User click on remove option of Card section")
@@ -183,12 +184,6 @@ public class RetailAccountSteps extends CommonUtility{
 		logger.info("User click Add Your Address button");
 	}
 	
-	@Then("A message should be displayed 'Address Added Successfully'")
-	public void aMessageShouldBeDisplayed() {
-		waitTillPresence(factory.accountPage().addedAddressMessage);
-		Assert.assertTrue(isElementDisplayed(factory.accountPage().addedAddressMessage));
-		logger.info("A message should be displayed 'Address Added Successfully'" );
-	}
 	
 	@And("User click on edit address option")
 	public void userClickOnEditAddressOption() {
@@ -202,12 +197,6 @@ public class RetailAccountSteps extends CommonUtility{
 		logger.info("User click on Update Your Address button");
 	}
 	
-	@Then("A message should be displayed 'Address Uploaded Successfully'")
-	public void confirmMessageshouldBeDisplayed() {
-		waitTillPresence(factory.accountPage().updatedAddressMessage);
-		Assert.assertTrue(isElementDisplayed(factory.accountPage().updatedAddressMessage));
-		logger.info("A message should be displayed 'Address Added Successfully'" );
-	}
 	
 	@And("User click on remove option of Address section")
 	public void userClickOnRemoveAddressOption() {

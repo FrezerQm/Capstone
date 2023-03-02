@@ -4,3 +4,9 @@
 2023-03-01 19:08:43,998 [main] INFO logger_File - User fill the sign up information form with data table
 2023-03-01 19:08:44,055 [main] INFO logger_File - User click in Sign up button
 2023-03-01 19:08:44,613 [main] INFO logger_File - User is logged into Account page
+2023-03-01 19:26:37,403 [main] INFO logger_File - User is on retail website
+2023-03-01 19:26:37,506 [main] INFO logger_File - User click on Sign in option
+2023-03-01 19:26:37,591 [main] INFO logger_File - User click on Create New Account button
+2023-03-01 19:26:38,149 [main] INFO logger_File - User fill the sign up information form with data table
+2023-03-01 19:26:38,215 [main] INFO logger_File - User click in Sign up button
+2023-03-01 19:26:38,771 [main] INFO logger_File - User is logged into Account page
