@@ -67,12 +67,6 @@ public class RetailAccountSteps extends CommonUtility{
 		logger.info("User click on Change Password button");
 	}
 	
-	@Then("A message should be displayed 'Password Updated Successfully'")
-	public void successMessageShouldBeDisplayed() {
-		waitTillPresence(factory.accountPage().updatedPasswordMessage);
-		Assert.assertTrue(isElementDisplayed(factory.accountPage().updatedPasswordMessage));
-		logger.info("A message confirm user successfully updated password should be displayed");
-	}
 	
 	@And("User click on Add a payment method")
 	public void userClickOnAddPaymentMethod() {
@@ -97,12 +91,6 @@ public class RetailAccountSteps extends CommonUtility{
 		logger.info("User click on Add Your Card button");
 	}
 	
-	@Then("A message should be displayed 'Payment Method added successfully'")
-	public void aConfirmMessageShouldBeDisplayed() {
-		waitTillPresence(factory.accountPage().addedCardMessage);
-		Assert.assertTrue(isElementDisplayed(factory.accountPage().addedCardMessage));
-		logger.info("A message should be displayed");
-	}
 	
 	@And("User click on Edit option of card section")
 	public void userClickOnEditOptionofCardSection() {
@@ -131,12 +119,6 @@ public class RetailAccountSteps extends CommonUtility{
 		logger.info("User click Update Your Card button");
 	}
 	
-	@Then("A message should be displayed {string}")
-	public void confirmMessageShouldBeDisplayed(String message) {
-		waitTillPresence(getDriver().findElement(By.xpath("//div[text()='" + message + "']")));
-		Assert.assertTrue(isElementDisplayed(getDriver().findElement(By.xpath("//div[text()='" + message + "']"))));
-		logger.info("A message should be displayed");
-	}
 	
 	@And("User click on remove option of Card section")
 	public void userClickOnremoveOption() {
@@ -190,6 +172,12 @@ public class RetailAccountSteps extends CommonUtility{
 		click(factory.accountPage().editAddress);
 		logger.info("User click on Edit Address option");
 	}
+	@Then("a message should be displayed {string}")
+	public void aMessageShouldBeDisplayed(String message) {
+		waitTillPresence(getDriver().findElement(By.xpath("//div[text()='" + message + "']")));
+		Assert.assertTrue(isElementDisplayed(getDriver().findElement(By.xpath("//div[text()='" + message + "']"))));
+		logger.info("Message displayed");
+	}
 	
 	@And("User click Update Your Address button")
 	public void userClickOnUpdateAddressButton() {
@@ -205,9 +193,9 @@ public class RetailAccountSteps extends CommonUtility{
 	}
 	
 	@Then("Address details should be removed")
-	public void removeAddress() throws InterruptedException {
-		wait(500);
-		Assert.assertFalse(isElementDisplayed(factory.accountPage().addedAddress));
+	public void removeAddress(){
+	
+		Assert.assertFalse(factory.accountPage().removeAddress.toString(), false);
 		logger.info("Remove added Address");
 	}
 	

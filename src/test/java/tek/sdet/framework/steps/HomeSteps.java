@@ -126,7 +126,7 @@ public class HomeSteps extends CommonUtility{
 	@Then("A message should be displayed {string}")
 	public void aMessageShouldBeDisplayed(String message) {
 		Assert.assertTrue(isElementDisplayed(getDriver().findElement(By.xpath("//p[text()='" + message + "']"))));
-		logger.info("A message should be displayed 'Order Placed, Thanks'");
+		logger.info("Message displayed");
 	}
 
 	

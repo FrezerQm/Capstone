@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        tags = "@Test2" , 
+        tags = "@Test10" , 
         features = ("classpath:features"),
         glue="tek.sdet.framework",
         dryRun = false,

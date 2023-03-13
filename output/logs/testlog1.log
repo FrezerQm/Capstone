@@ -10,3 +10,109 @@
 2023-03-01 19:26:38,149 [main] INFO logger_File - User fill the sign up information form with data table
 2023-03-01 19:26:38,215 [main] INFO logger_File - User click in Sign up button
 2023-03-01 19:26:38,771 [main] INFO logger_File - User is logged into Account page
+2023-03-09 12:01:12,045 [main] INFO logger_File - User is on retail website
+2023-03-09 12:01:12,375 [main] INFO logger_File - User click on Sign in option
+2023-03-09 12:01:12,620 [main] INFO logger_File - User click on Create New Account button
+2023-03-09 12:01:13,038 [main] INFO logger_File - User fill the sign up information form with data table
+2023-03-09 12:01:13,293 [main] INFO logger_File - User click in Sign up button
+2023-03-09 12:01:14,449 [main] INFO logger_File - User is logged into Account page
+2023-03-09 12:04:03,550 [main] INFO logger_File - User is on retail website
+2023-03-09 12:04:03,900 [main] INFO logger_File - User click on Sign in option
+2023-03-09 12:04:04,085 [main] INFO logger_File - User enter email and password value
+2023-03-09 12:04:04,354 [main] INFO logger_File - User click on log in button
+2023-03-09 12:04:04,935 [main] INFO logger_File - User should be logged in into Account
+2023-03-09 12:04:05,286 [main] INFO logger_File - User click on Account option
+2023-03-09 12:04:05,550 [main] INFO logger_File - User click on remove option of Address section
+2023-03-09 12:05:12,859 [main] INFO logger_File - User is on retail website
+2023-03-09 12:05:13,142 [main] INFO logger_File - User click on Sign in option
+2023-03-09 12:05:13,296 [main] INFO logger_File - User enter email and password value
+2023-03-09 12:05:13,551 [main] INFO logger_File - User click on log in button
+2023-03-09 12:05:14,647 [main] INFO logger_File - User should be logged in into Account
+2023-03-09 12:05:14,931 [main] INFO logger_File - User click on Account option
+2023-03-09 12:05:15,191 [main] INFO logger_File - User click on remove option of Address section
+2023-03-09 12:12:51,528 [main] INFO logger_File - User is on retail website
+2023-03-09 12:12:51,818 [main] INFO logger_File - User click on Sign in option
+2023-03-09 12:12:51,953 [main] INFO logger_File - User enter email and password value
+2023-03-09 12:12:52,202 [main] INFO logger_File - User click on log in button
+2023-03-09 12:12:52,758 [main] INFO logger_File - User should be logged in into Account
+2023-03-09 12:12:53,035 [main] INFO logger_File - User click on Account option
+2023-03-09 12:12:53,276 [main] INFO logger_File - User click on remove option of Address section
+2023-03-09 12:17:18,564 [main] INFO logger_File - User is on retail website
+2023-03-09 12:17:18,866 [main] INFO logger_File - User click on Sign in option
+2023-03-09 12:17:19,014 [main] INFO logger_File - User enter email and password value
+2023-03-09 12:17:19,273 [main] INFO logger_File - User click on log in button
+2023-03-09 12:17:19,350 [main] INFO logger_File - User should be logged in into Account
+2023-03-09 12:17:19,635 [main] INFO logger_File - User click on Account option
+2023-03-09 12:17:19,876 [main] INFO logger_File - User click on remove option of Address section
+2023-03-10 10:32:13,663 [main] INFO logger_File - User is on retail website
+2023-03-10 10:32:13,963 [main] INFO logger_File - User click on Sign in option
+2023-03-10 10:32:14,111 [main] INFO logger_File - User enter email and password value
+2023-03-10 10:32:14,375 [main] INFO logger_File - User click on log in button
+2023-03-10 10:32:14,408 [main] INFO logger_File - User should be logged in into Account
+2023-03-10 10:32:14,675 [main] INFO logger_File - User click on Account option
+2023-03-10 10:32:14,934 [main] INFO logger_File - User click on remove option of Address section
+2023-03-10 10:34:22,114 [main] INFO logger_File - User is on retail website
+2023-03-10 10:34:22,395 [main] INFO logger_File - User click on Sign in option
+2023-03-10 10:34:22,538 [main] INFO logger_File - User enter email and password value
+2023-03-10 10:34:22,785 [main] INFO logger_File - User click on log in button
+2023-03-10 10:34:22,819 [main] INFO logger_File - User should be logged in into Account
+2023-03-10 10:34:23,093 [main] INFO logger_File - User click on Account option
+2023-03-10 10:34:23,335 [main] INFO logger_File - User click on remove option of Address section
+2023-03-10 11:04:11,382 [main] INFO logger_File - User is on retail website
+2023-03-10 11:04:11,675 [main] INFO logger_File - User click on Sign in option
+2023-03-10 11:04:11,809 [main] INFO logger_File - User enter email and password value
+2023-03-10 11:04:12,060 [main] INFO logger_File - User click on log in button
+2023-03-10 11:04:12,637 [main] INFO logger_File - User should be logged in into Account
+2023-03-10 11:04:12,955 [main] INFO logger_File - User click on Account option
+2023-03-10 11:07:09,087 [main] INFO logger_File - User is on retail website
+2023-03-10 11:07:09,370 [main] INFO logger_File - User click on Sign in option
+2023-03-10 11:07:09,509 [main] INFO logger_File - User enter email and password value
+2023-03-10 11:07:09,766 [main] INFO logger_File - User click on log in button
+2023-03-10 11:07:10,321 [main] INFO logger_File - User should be logged in into Account
+2023-03-10 11:07:10,671 [main] INFO logger_File - User click on Account option
+2023-03-10 11:07:10,918 [main] INFO logger_File - User click on remove option of Address section
+2023-03-10 11:07:10,924 [main] INFO logger_File - Remove added Address
+2023-03-12 23:16:35,202 [main] INFO logger_File - User is on retail website
+2023-03-12 23:16:35,522 [main] INFO logger_File - User click on Sign in option
+2023-03-12 23:16:35,702 [main] INFO logger_File - User enter email and password value
+2023-03-12 23:16:36,000 [main] INFO logger_File - User click on log in button
+2023-03-12 23:16:36,058 [main] INFO logger_File - User should be logged in into Account
+2023-03-12 23:16:36,369 [main] INFO logger_File - User click on Account option
+2023-03-12 23:16:36,652 [main] INFO logger_File - User click on add Address option
+2023-03-12 23:16:37,780 [main] INFO logger_File - User fill new address form
+2023-03-12 23:16:38,093 [main] INFO logger_File - User click Add Your Address button
+2023-03-12 23:20:02,597 [main] INFO logger_File - User is on retail website
+2023-03-12 23:20:02,874 [main] INFO logger_File - User click on Sign in option
+2023-03-12 23:20:03,050 [main] INFO logger_File - User enter email and password value
+2023-03-12 23:20:03,327 [main] INFO logger_File - User click on log in button
+2023-03-12 23:20:03,372 [main] INFO logger_File - User should be logged in into Account
+2023-03-12 23:20:03,667 [main] INFO logger_File - User click on Account option
+2023-03-12 23:20:03,917 [main] INFO logger_File - User click on add Address option
+2023-03-12 23:20:04,950 [main] INFO logger_File - User fill new address form
+2023-03-12 23:20:05,257 [main] INFO logger_File - User click Add Your Address button
+2023-03-12 23:25:16,537 [main] INFO logger_File - User is on retail website
+2023-03-12 23:25:16,832 [main] INFO logger_File - User click on Sign in option
+2023-03-12 23:25:16,995 [main] INFO logger_File - User enter email and password value
+2023-03-12 23:25:17,271 [main] INFO logger_File - User click on log in button
+2023-03-12 23:25:17,350 [main] INFO logger_File - User should be logged in into Account
+2023-03-12 23:25:17,670 [main] INFO logger_File - User click on Account option
+2023-03-12 23:25:17,924 [main] INFO logger_File - User click on Edit Address option
+2023-03-12 23:25:18,867 [main] INFO logger_File - User fill new address form
+2023-03-12 23:25:19,159 [main] INFO logger_File - User click on Update Your Address button
+2023-03-12 23:25:19,743 [main] INFO logger_File - Message displayed
+2023-03-12 23:25:34,119 [main] INFO logger_File - User is on retail website
+2023-03-12 23:25:34,422 [main] INFO logger_File - User click on Sign in option
+2023-03-12 23:25:34,591 [main] INFO logger_File - User enter email and password value
+2023-03-12 23:25:34,850 [main] INFO logger_File - User click on log in button
+2023-03-12 23:25:34,897 [main] INFO logger_File - User should be logged in into Account
+2023-03-12 23:25:35,200 [main] INFO logger_File - User click on Account option
+2023-03-12 23:25:35,458 [main] INFO logger_File - User click on remove option of Address section
+2023-03-12 23:25:35,462 [main] INFO logger_File - Remove added Address
+2023-03-13 00:49:41,604 [main] INFO logger_File - User is on retail website
+2023-03-13 00:49:41,971 [main] INFO logger_File - User click on Sign in option
+2023-03-13 00:49:42,136 [main] INFO logger_File - User enter email and password value
+2023-03-13 00:49:42,387 [main] INFO logger_File - User click on log in button
+2023-03-13 00:49:42,460 [main] INFO logger_File - User should be logged in into Account
+2023-03-13 00:49:42,757 [main] INFO logger_File - User click on Account option
+2023-03-13 00:49:43,005 [main] INFO logger_File - User click on remove option of Address section
+2023-03-13 00:49:43,012 [main] INFO logger_File - Remove added Address

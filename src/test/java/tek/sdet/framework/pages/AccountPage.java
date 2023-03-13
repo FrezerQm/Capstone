@@ -165,6 +165,6 @@ public class AccountPage extends BaseSetup{
 	@FindBy(xpath = "//div[text()='Address Updated Successfully']")
 	public WebElement updatedAddressMessage;
 
-	@FindBy(xpath = "//p[text()='122 abcdd street abc District']")
+	@FindBy(className = "account__address-single")
 	public WebElement addedAddress;
 }

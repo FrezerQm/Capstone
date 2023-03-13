@@ -58,7 +58,7 @@ Feature: Retail Account Page
       | country        | fullName | phoneNumber | streetAddress                 | apt     | city   | state           | zipCode |
       | United Kingdom | CDE      |  2030989987 | 122 abcdd street abc District | floor 6 | London | London, City of |   20034 |
     And User click Add Your Address button
-    Then A message should be displayed 'Address Added Successfully'
+    Then a message should be displayed 'Address Added Successfully'
 
   @Test9
   Scenario: Verify User can edit an Address added on Account
@@ -68,7 +68,7 @@ Feature: Retail Account Page
       | country       | fullName | phoneNumber | streetAddress                 | apt     | city   | state   | zipCode |
       | United States | ABC      |  2022434445 | 123 abcdd street abc District | floor 6 | London | Arizona |   20034 |
     And User click Update Your Address button
-    Then A message should be displayed 'Address Uploaded Successfully'
+    Then a message should be displayed 'Address Updated Successfully'
 
   @Test10
   Scenario: Verify User can remove Address from Account
